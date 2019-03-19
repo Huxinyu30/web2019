@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+     font-family:"微软雅黑"，Arial;
+}
+a{
+     text-decoration:none;
+}
+li{
+     list-style:none;
+}
+img{
+     border:none;
+}
+input{
+	outline: none;
+}
+.header{
+	height: 940px;
+	padding-top: 200px;
+	background: url(../img/reg_bg.jpg) no-repeat center center;
+}
+.heaTop{
+	width: 560px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.heaTop a:nth-child(1){
+	float: left;
+	font-size: 14px;
+	color: #fff;
+}
+.heaTop a:nth-child(2){
+	float: right;
+	font-size: 14px;
+	color: #fff;
+}
+.heaBot{
+	width: 560px;
+	height: 447px;
+	margin: 10px auto;
+	border-radius: 7px;
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0 !important;
+
+	text-align: center;
+}
+.heaBot img{
+	width: 156px;
+	height: 43px;
+	margin: 30px auto;
+}
+.phone{
+	width: 488px;
+	height: 54px;
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	margin-bottom: 36px;
+}
+.tongyi{
+	overflow: hidden;
+	width: 488px;
+	height: 12px;
+	line-height: 12px;
+	margin: 0 auto 38px;
+}
+.tongyi input{
+	float: left;
+	margin-right: 10px;
+}
+.tongyi p{
+	float: left;
+	font-size: 12px;
+	color: #666; 
+	margin-right: 5px;
+}
+.tongyi a{
+	float: right;
+	font-size: 12px;
+	color: red; 
+}
+.zuce{
+	margin: 30px auto 0px;
+	width: 276px;
+	height: 48px;
+	color: #fff;
+	line-height: 48px;
+	font-size: 18px;
+	background: #e10b13;
+	border: solid #e10b13;
+	border-radius: 6px;
+}

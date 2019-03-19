@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>登录-全屋优品</title>
+<link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+	<div class="header">
+		<div class="heaZ">
+			<div class="heaTop">
+				<a href="##">返回全屋优品首页</a>
+				<a href="##">已经有账号？ 马上登录</a>
+			</div>
+			<div class="heaBot">
+				<img src="img/logoquan5.png">
+				<div class="Botxia">
+					<form action="register.php" method="post">
+					<input class="phone" type="text" name="userphone" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;请输入你的手机号">
+					 <input class="phone" type="password" name="userpass" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;请输入密码"/>
+					 <div class="tongyi">
+					 	<input type="checkbox">
+						<span>
+							<p>下次自动登录</p>
+						</span>
+						<a href="##">忘记密码？</a>
+					 </div>
+					 <input class="zuce" type="submit" value="立即登录">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+
+function $(str){
+	if(str.charAt(0)=="#"){
+		return document.getElementById(str.substring(1));
+	}else if(str.charAt(0)=="."){
+		return document.getElementsByClassName(str.substring(1));
+	}else{
+		return document.getElementsByTagName(str);
+	}
+}
+
+</script>
